@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 83px;
+    background-color: #D9D9D9;
+    padding: 0 55px;
+}
+.para1{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.section1{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("images/Rectangle\ 2.png");
+    height: 639px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+.center>h1{
+    font-family: Inter;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(235, 235, 235, 1);
+}
+.center>p{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    width: 735px;
+
+}
+.section2{
+    background-color: rgba(217, 217, 217, 1);
+    height: 588px;
+}
+.section2>h2{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    padding-top: 3%;
+}
+.box{
+    width: 302px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.box>h2{
+    padding: 15px 0;
+}
+.conteneur-prog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 80%;
+}
+.section3{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(9,1fr);
+    background-color: rgba(211, 147, 147, 1);
+    /* height: 1270px; */
+}
+.dasmoto{
+    display: flex;
+    gap: 15px;
+    margin: 5px 0;
+}
+.dasmoto>img{
+    width: 256px;
+}
+.bouton{
+    border: 1px solid rgba(217, 217, 217, 1);
+    color: black;
+    background-color: rgba(217, 217, 217, 1);
+    padding: 3px;
+}
+.box-1{
+    grid-column: 2/8;
+    grid-row: 2/3;
+    text-align: center;
+}
+.box-2{
+    grid-row: 4/5;
+    grid-column: 2/8;
+}
+.box-3{
+    grid-row: 6/7;
+    grid-column: 2/8;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.box-4{
+    grid-row: 8/9;
+    grid-column: 2/8;
+}
+.dasmoto>h3{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.dasmoto>p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    flex-wrap: wrap;
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 25px;
+    
+}
+.grid-equipe{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+    width: 1225px;
+    margin: auto;
+}
+.grid-equipe img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section5{
+    background-color: #D39393;
+
+}
+.section5 h2{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 25px;
+
+}
+.section5 div{
+    width: 685px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+}
+.section6{
+    background-color: #D9D9D9;
+    height: 636px;
+
+
+}
+.section6 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 1134px; */
+    height: 70%;
+    
+    
+    
+}
+.section6 h2{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+
+}
+.section7{
+    display: flex;
+    background-color: #D39393;
+    height: 50%;
+    
+}
+.section7 p{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+    width: 1070px;
+    margin: auto;
+    padding: 25px;
+}
+
